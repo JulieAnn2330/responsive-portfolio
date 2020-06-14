@@ -11,33 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
  
    <title>Responsive Portfolio Home</title>
-</head>
 
-<h1>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="navbar-nav mr-auto">
-             <h1>Julie Ann Schaub</h1> 
-            <li class="nav-item active">
-              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html"> Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contact.html"> Contact</a>
-              </li>
-          </div>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-</h1>
-
+   <title>Bootstrap Example</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+ 
+ <nav class="navbar navbar-default">
+   <div class="container-fluid">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>                        
+       </button>
+       <a class="navbar-brand" href="#">Julie Ann Schaub</a>
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+        <li><a href="./index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+         <li><a href="./portfolio.html"><span class="glyphicon glyphicon-pencil"></span> Portfolio</a></li>
+         <li><a href="./contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+   
 <main>
     <main class="about-me">
        <h1>About Me</h1>
@@ -59,4 +62,7 @@
 
 </main>
 
+<footer>Icons courtesy of <a href="https://www.glyphicons.com/" target="blank"> Glyphicon </a></footer>
+
 </html>
+
