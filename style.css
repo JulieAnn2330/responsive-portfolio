@@ -3,6 +3,23 @@ h1 {
 font-size: 25px;
 font-family: 'Montserrat', sans-serif;
 background-color: grey;
-color:white;
+color:rgb(34, 3, 107);
 padding: 10px;
 }
+
+/* Style of image */
+.bio-image {
+    margin: 20px;
+}
+
+/* Style of About Me Section */
+.about-me, .form-group {
+    width: 70%;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    margin: 10px;
+}
+
