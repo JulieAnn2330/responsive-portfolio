@@ -3,48 +3,57 @@ h1 {
 font-size: 25px;
 font-family: 'Montserrat', sans-serif;
 background-color:lightslategray;
-color:rgb(34, 3, 107);
+color: white;
 padding: 10px;
 }
 
 /* Style of image */
 .bio-image {
     margin: 20px;
+    float: left;
 }
 
 /* Style of About Me Section */
-.about-me, .contact, .portfolio {
+.about-me, #contact, .portfolio {
     width: 70%;
     padding: 20px;
 }
 
+/* Style of footer */
 footer {
-    background-color: grey;
+    background-color: lightslategrey;
     color: white;
     text-align: center;
 }
 
+/* Style of link in footer */
 a.link {
     color: white;
 }
 
+/* Style of text */
 .home, .contact, .portfolio, .brand {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color:white;
 }
-
+/* 'Style of brand' */
 .brand {
     font-size: 25px;
 }
 
-#contact {
-    width: 70%;
-    padding: 20px;
-}
-
+/* Style of submit button */
 .submit {
    background-color: blue;
    color: white;
    margin: 20px;
 }
+
+/* Style of links on cards */
+.link {
+    text-align: center;
+    margin-top: 10px;
+
+.title {
+        color: white;
+    }
