@@ -2,7 +2,7 @@
 h1 {
 font-size: 25px;
 font-family: 'Montserrat', sans-serif;
-background-color: grey;
+background-color:lightslategray;
 color:rgb(34, 3, 107);
 padding: 10px;
 }
@@ -13,7 +13,7 @@ padding: 10px;
 }
 
 /* Style of About Me Section */
-.about-me, .form-group {
+.about-me, .contact, .portfolio {
     width: 70%;
     padding: 20px;
 }
@@ -24,6 +24,27 @@ footer {
     text-align: center;
 }
 
-a {
+a.link {
     color: white;
+}
+
+.home, .contact, .portfolio, .brand {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+.brand {
+    font-size: 25px;
+}
+
+#contact {
+    width: 70%;
+    padding: 20px;
+}
+
+.submit {
+   background-color: blue;
+   color: white;
+   margin: 20px;
 }

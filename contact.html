@@ -14,51 +14,60 @@
        <title>Contact</title>
     </head>
     
-    <h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-             
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <h1>Julie Ann Schaub</h1> 
-                <li class="nav-item active">
-                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="brand" class="navbar-brand" href="mailto: julie.schaub@hotmail.com">Julie Ann Schaub</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+    
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      </head>
+      <body>
+    
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+    
+              <a class="nav-link" href="./index.html"><span class="glyphicon glyphicon-home"></span>Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./portfolio.html"> Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html"> Contact</a>
-                  </li>
-              </div>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-    </h1>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html"><span class="glyphicon glyphicon-pencil"></span> Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
     <!-- Contact info collection -->
     <form>
-        <div class="form-group">
+        <div id="contact" class="form-group">
           <label for="exampleFormControlSelect1">Name</label>
           <textarea class="form-control" id="exampleFormControlSelect1" rows=1 placeholder="Jane Doe"></textarea>
         </div>
-        <div class="form-group">
+        <div id="contact" class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
-        <div class="form-group">
+        <div id="contact" class="form-group">
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
     </div>
     <div>
-    <a href="mailto: julie.schaub@hotmail.com" class="btn btn-info" role="button">Link Button</a>
-    <button type="button" class="btn btn-info">Button</button>
-    <input type="button" class="btn btn-info" value="Input Button">
-    <input type="submit" class="btn btn-info" value="Submit Button">
-      </form>
+        <input class="submit" class="btn btn-primary" type="submit" value="Submit">
+    </form>
     </div>
 </html>
