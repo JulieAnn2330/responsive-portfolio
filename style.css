@@ -45,4 +45,7 @@
    background-color: lightslategrey;
    color: white;
    margin: 20px;
+
+.pill-1 {
+    background: red !important;
 }
