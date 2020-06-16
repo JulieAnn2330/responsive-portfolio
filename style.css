@@ -1,19 +1,5 @@
-/* Styles of header */
-
-
-/* Style of image */
-.bio-image {
-    margin: 20px;
-    float: left;
-}
-
-/* Style of About Me Section */
-.about-me, #contact, .portfolio {
-    padding: 20px;
-}
-
 /* Style of text */
-.home, .contact, .portfolio {
+.home, .contact, .portfolio-link {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color:rgb(21, 9, 92);
@@ -28,16 +14,35 @@
     margin-right: 30px;
 }
 
-/* Style of submit button */
-.submit {
-   background-color: lightslategrey;
-   color: white;
-   margin: 20px;
+/* Style of image */
+.bio-image {
+    margin: 20px;
+    float: left;
+}
+
+/* Style of About Me Section */
+.about-me, #contact, .portfolio {
+    padding: 20px;
+}
+
+/* Styles of portfolio */
+.portfolio-text {
+    background-color: lightslategray;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* Style of links on cards */
 .link {
     text-align: center;
     margin-top: 10px;
+}
 
-
+/* Style of submit button */
+.submit {
+   background-color: lightslategrey;
+   color: white;
+   margin: 20px;
+}
