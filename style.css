@@ -1,11 +1,5 @@
 /* Styles of header */
-h1 {
-font-size: 25px;
-font-family: 'Montserrat', sans-serif;
-background-color:lightslategray;
-color: white;
-padding: 10px;
-}
+
 
 /* Style of image */
 .bio-image {
@@ -46,9 +40,4 @@ padding: 10px;
     text-align: center;
     margin-top: 10px;
 
-
-/* Style of link in footer */
-.link {
-    color: white;
-}
 
