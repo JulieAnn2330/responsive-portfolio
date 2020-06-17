@@ -28,6 +28,7 @@
 /* Styles of portfolio */
 .portfolio-text {
     background-color: lightslategray;
+    color: white;
     text-align: center;
     padding: 10px;
     margin-top: 15px;
@@ -38,14 +39,11 @@
 .link {
     text-align: center;
     margin-top: 10px;
-}
+    }
 
 /* Style of submit button */
 .submit {
    background-color: lightslategrey;
    color: white;
    margin: 20px;
-
-.pill-1 {
-    background: red !important;
 }
