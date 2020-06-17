@@ -64,13 +64,38 @@
 </div>
 </form>
 
+<form name="myform" action="handle-data.pl">
+  Search: <input type='text' name='query' />
+  <input type="image" src="go.gif" />
+  </form>
+
+  <form name="myform" action="handle-data.php">
+    Search: <input type='text' name='query' />
+    <a href="javascript: submitform()">
+    <img src="go.gif" width="33" height="19" border="0" />
+    </a>
+    </form>
+    <script type="text/javascript">
+    function submitform()
+    {
+        if(document.myform.onsubmit &&
+        !document.myform.onsubmit())
+        {
+            return;
+        }
+     document.myform.submit();
+    }
+    </script>
+    
+
 <!-- Footer -->
 
-<div class="footer-margin">
-<footer class="card-footer bg-secondary footer-font-style text-muted footer-position">
-Icons courtesy of <a class="link" href="https://www.glyphicons.com/" target="blank"> Glyphicon </a>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+  <div class="container text-center">
+    <small>Copyright &copy; Your Website</small>
+  </div>
 </footer>
-</div>
+
   
    
     <!-- Optional JavaScript -->
