@@ -47,14 +47,16 @@
     margin-top: 10px;
     }
 
+/* Style of headers */
  h2, h3 {
      color: lightslategray;
      margin-left: 20px;
      margin-top: 10px;
       }   
 
-      .link {
-          color:red;
+/* Style of links on contact me page */
+.link {
+     color:red;
       }
 
 /* Style of submit button */
@@ -64,6 +66,7 @@
    margin: 20px;
 }
 
+/* Style of @media */
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightgray;
